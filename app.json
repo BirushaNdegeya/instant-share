@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ReactNativePaperBoilerplate",
-    "slug": "BoilerplateRNP",
+    "name": "instant-share",
+    "slug": "Instant Share",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",

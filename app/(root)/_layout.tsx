@@ -1,10 +1,11 @@
-import { View, Text } from 'react-native';
-
+import { Stack } from "expo-router";
 
 export default function RootLayout() {
   return (
-    <View>
-      <Text>Auth Layout</Text>
-    </View>
+    <Stack>
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      <Stack.Screen name="profile" />
+      <Stack.Screen name="search" />
+    </Stack>
   )
 }
